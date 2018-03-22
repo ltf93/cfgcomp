@@ -1,1 +1,15 @@
-.jumbotron {background-color: white}
+.jumbotron {background-size: cover;
+            background-attachment: fixed;
+            background-color: white
+}
+body {
+  padding-top: 70px;
+}
+
+.navbar {background-color: black;
+}
+
+.navbar-header {
+  text-shadow: #FC0 1px 0 10px;
+  color: white;
+}
