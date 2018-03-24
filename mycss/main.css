@@ -13,3 +13,8 @@ body {
   text-shadow: #FC0 1px 0 10px;
   color: white;
 }
+
+.navbar-brand {
+  font-family: "Londrina Shadow", cursive;
+  color: white;
+}
