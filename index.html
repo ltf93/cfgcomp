@@ -82,64 +82,43 @@
          </div>
          <!-- /.container-fluid -->
          </nav>
-         <div id="amazingslider-wrapper-1" style="display:block;position:relative;max-width:500px;margin:0px auto 56px;">
-            <div id="amazingslider-1" style="display:block;position:relative;margin:0 auto;">
-               <ul class="amazingslider-slides" style="display:none;">
-                  <li><img src="images/imsg.png" />
-                  </li>
-                  <li>
-                     <img src="images/x5teRSBC0R8.jpg" />
-                     <video preload="none" src="https://www.youtube.com/embed/x5teRSBC0R8" ></video>
-                  </li>
-               </ul>
-               <ul class="amazingslider-thumbnails" style="display:none;">
-                  <li><img src="images/imsg-tn.png" /></li>
-                  <li><img src="images/x5teRSBC0R8-tn.jpg" /></li>
-               </ul>
-            </div>
-         </div>
       </div>
-<!-- lin testing imessage bubbles -->
+<body>
 
-<section>
-    <div class="from-me">
-      <p>Hey there! What's up?</p>
-    </div>
-  <br>
-  <br>
-  <div class="clear"></div>
-    <div class="from-them">
-      <p>Checking out iOS7 you know..</p>
-    </div>
-  <br>
-  <br>
-  <div class="clear"></div>
-    <div class="from-me">
-      <p>Check out this bubble!</p>
-    </div>
-  <br>
-  <br>
-  <div class="clear"></div>
-    <div class="from-them">
-      <p>It's pretty cool!</p>
-    </div>
-  <br>
-  <br>
-  <div class="clear"></div>
-    <div class="from-me">
-      <p>Yeah it's pure CSS &amp; HTML</p>
-    </div>
-  <br>
-  <br>
-  <div class="clear"></div>
-    <div class="from-them">
-      <p>Wow that's impressive. But what's even more impressive is that this bubble is really high.</p>
-    </div>
-  <br>
-  <br>
-  </section>
+  <div class="container" onmousemove="typeWriter(demo)">
+    <img src="woman-avatar.jpg" class="img-circle"alt="Avatar">
+      <p id="demo"></p>
+        <script>
+            var i = 0;
+            var txt = 'this is so good';
+            var speed = 50;
+            function typeWriter() {
+            if (i < txt.length) {
+            document.getElementById("demo").innerHTML += txt.charAt(i);
+            i++;
+            setTimeout(typeWriter, speed);
+    }
+  }
+  </script>
+    <span class="time-right">11:00</span>
+  </div>
 
+  <div class="container darker">
+    <img src="man-avatar.jpeg" class="img-circle" alt="Avatar" class="right">
+    <p> yeah but have you heard this?</p>
+    <span class="time-left">11:01</span>
+  </div>
 
-      </div> <!-- close jumbotron div -->
-    </div>  <!--close container div-->
-   </body>
+  <div class="container">
+    <img src="woman-avatar.jpg" class="img-circle"  alt="Avatar">
+    <p>he's playing with Romare this week <iframe src="https://open.spotify.com/embed/track/0gOxMzheaAPk6cLWBIk5fc" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe> </p>
+    <span class="time-right">11:02</span>
+  </div>
+
+  <div class="container darker">
+    <img src="man-avatar.jpeg" alt="Avatar" class="img-circle" alt="Avatar" class="right">
+    <p>let's go</p>
+    <span class="time-left">11:05</span>
+  </div>
+
+</body>
