@@ -1,15 +1,28 @@
-.jumbotron {
-            background-size: cover;
-            background-attachment: fixed;
-            background: #f0d60a
+.nav {
+  margin:0px;
 }
 .navbar {
-        background: black
-        
+        background: transparent;
+        background-color: transparent;
+        border-color:transparent;
+        margin-bottom: 0px;
+        font-family: 'Permanent Marker', Serif;
+        font-size:25px;
+}
+
+.navbar-brand {
+  font-size:20px;
+  font-family: 'Permanent Marker', serif;
 }
 
 .navbar-header {
   text-shadow: #FC0 1px 0 10px;
+}
+
+.jumbotron {
+            background-size: cover;
+            background-attachment: fixed;
+            background: #f0d60a
 }
 
 
@@ -21,7 +34,7 @@
     border-radius: 5px;
     padding: 10px;
     margin: 10px 0;
-    max-width: 30em
+    max-width: 50em
 }
 
 /* Darker chat container */
@@ -40,16 +53,15 @@
 /* Style images */
 .container img {
     float: left;
-    max-width: 60px;
+    max-width: 200px;
     width: 100%;
     margin-right: 20px;
-    border-radius: 50%;
 }
 
 /* Style the right image */
 .container img.right {
     float: right;
-    margin-left: 20px;
+    margin-left: 0px;
     margin-right:0;
 }
 
@@ -59,11 +71,7 @@
     color: #aaa;
 }
 
-/* Style time text */
-.time-left {
-    float: left;
-    color: #999;
-}
+
 
 
 body {
