@@ -3,8 +3,14 @@
 <head>
     <title>3tones</title>
     <link href='./css/bootstrap.css' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="mycss/main.css"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script  src="http://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous">
+  </script>
 
     <script src="sliderengine/jquery.js"></script>
     <script src="sliderengine/amazingslider.js"></script>
@@ -12,8 +18,6 @@
     <script src="sliderengine/initslider-1.js"></script>
 </head>
 
-<div class="container">
-<div class='jumbotron'>
 <nav class="navbar navbar-default">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
@@ -84,21 +88,41 @@
 </nav>
 
 <body>
-  <div id="amazingslider-wrapper-1" style="display:block;position:relative;max-width:500px;margin:0px auto 56px;">
-      <div id="amazingslider-1" style="display:block;position:relative;margin:0 auto;">
-          <ul class="amazingslider-slides" style="display:none;">
-              <li><img src="images/imsg.png" />
-              </li>
-              <li><img src="images/x5teRSBC0R8.jpg" />
-              <video preload="none" src="https://www.youtube.com/embed/x5teRSBC0R8" ></video>
-              </li>
-          </ul>
-          <ul class="amazingslider-thumbnails" style="display:none;">
-              <li><img src="images/imsg-tn.png" /></li>
-              <li><img src="images/x5teRSBC0R8-tn.jpg" /></li>
-          </ul>
-      </div>
+
+  <div class="container" onmousemove="typeWriter(demo)">
+    <img src="woman-avatar.jpg" class="img-circle"alt="Avatar">
+      <p id="demo"></p>
+        <script>
+            var i = 0;
+            var txt = 'this is so good';
+            var speed = 50;
+            function typeWriter() {
+            if (i < txt.length) {
+            document.getElementById("demo").innerHTML += txt.charAt(i);
+            i++;
+            setTimeout(typeWriter, speed);
+    }
+  }
+  </script>
+    <span class="time-right">11:00</span>
   </div>
-</div>
-</div>
+
+  <div class="container darker">
+    <img src="man-avatar.jpeg" class="img-circle" alt="Avatar" class="right">
+    <p> yeah but have you heard this?</p>
+    <span class="time-left">11:01</span>
+  </div>
+
+  <div class="container">
+    <img src="woman-avatar.jpg" class="img-circle"  alt="Avatar">
+    <p>he's playing with Romare this week <iframe src="https://open.spotify.com/embed/track/0gOxMzheaAPk6cLWBIk5fc" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe> </p>
+    <span class="time-right">11:02</span>
+  </div>
+
+  <div class="container darker">
+    <img src="man-avatar.jpeg" alt="Avatar" class="img-circle" alt="Avatar" class="right">
+    <p>let's go</p>
+    <span class="time-left">11:05</span>
+  </div>
+
 </body>

@@ -1,15 +1,74 @@
-.jumbotron {background-size: cover;
+.jumbotron {
+            background-size: cover;
             background-attachment: fixed;
-            background-color: white
+            background: #f0d60a
 }
-body {
-  padding-top: 70px;
-}
-
-.navbar {background-color: black;
+.navbar {
+        background: black
+        
 }
 
 .navbar-header {
   text-shadow: #FC0 1px 0 10px;
-  color: white;
+}
+
+
+
+/* Chat containers */
+.container {
+    border: 2px solid #dedede;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+    max-width: 30em
+}
+
+/* Darker chat container */
+.darker {
+    border-color: #ccc;
+    background-color: #ddd;
+}
+
+/* Clear floats */
+.container::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Style images */
+.container img {
+    float: left;
+    max-width: 60px;
+    width: 100%;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+/* Style the right image */
+.container img.right {
+    float: right;
+    margin-left: 20px;
+    margin-right:0;
+}
+
+/* Style time text */
+.time-right {
+    float: right;
+    color: #aaa;
+}
+
+/* Style time text */
+.time-left {
+    float: left;
+    color: #999;
+}
+
+
+body {
+  margin: 0 auto;
+  max-width: 50em;
+  padding-top: 70px;
+  background: #f0d60a
 }
