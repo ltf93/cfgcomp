@@ -1,15 +1,28 @@
-.jumbotron {
-            background-size: cover;
-            background-attachment: fixed;
-            background: #f0d60a
+.nav {
+  margin:0px;
 }
 .navbar {
-        background: black
-        
+        background: transparent;
+        background-color: transparent;
+        border-color:transparent;
+        margin-bottom: 0px;
+        font-family: 'Droid Serif', Serif;
+        font-size:20px;
+}
+
+.navbar-brand {
+  font-size:20px;
+  font-family: 'Permanent Marker', serif;
 }
 
 .navbar-header {
   text-shadow: #FC0 1px 0 10px;
+}
+
+.jumbotron {
+            background-size: cover;
+            background-attachment: fixed;
+            background: #f0d60a
 }
 
 
