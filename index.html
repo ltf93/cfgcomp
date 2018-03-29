@@ -18,7 +18,6 @@
            <span class="icon-bar"></span>
            <span class="icon-bar"></span>
          </button>
-
        </div>	<!--page scroll button-->
      <div>
        <div class="collapse navbar-collapse" id="myNavbar">
@@ -31,55 +30,63 @@
       </div> <!--ul-li-->
     </div> <!--navbar collapse-->
   </div> <!--container-fluid-->
-</nav>
+  </nav>
 
-<!--Navigation-->
+<!--lins copied css: https://codepad.co/snippet/ZFOvndev-->
 
-<body>
-
-<<<<<<< HEAD
-  <div class="container" onmousemove="typeWriter()">
-    <img src="woman-avatar.jpg" class="img-circle"alt="Avatar">
-=======
-  <div class="container" onmousemove="typeWriter(demo)">
-    <img src="images/Kaytranada.jpg" class=left>
-      <h3> WEIGHT OFF - Kaytranada, BadBadNotGood </h6>
-      <h4> album EP </h4>
->>>>>>> prototype_lissie
-      <p id="demo"></p>
-
-  <script>
-    var i = 0;
-    var txt = 'this is so good';
-    var speed = 50;
-
-  function typeWriter() {
-    if (i < txt.length) {
-      document.getElementById("demo").innerHTML += txt.charAt(i);
-      i++;
-      setTimeout(typeWriter, speed);
-    }
-  }
-  </script>
-    <span class="time-right">11:00</span>
+  <div class="speech-wrapper">
+    <div class="bubble">
+      <div class="txt">
+        <p class="name">Cesar Nogueira</p>
+        <p class="message">Hey, check out this pure CSS speech bubble...</p>
+        <span class="timestamp">10:20 pm</span>
+      </div>
+      <div class="bubble-arrow"></div>
+    </div>
+    <div class="bubble alt">
+      <div class="txt">
+        <p class="name alt">+353 87 1234 567<span> ~ Anna</span></p>
+        <p class="message"><i>Nice...</i> this will work great for my new project.</p>
+        <span class="timestamp">10:22 pm</span>
+      </div>
+      <div class="bubble-arrow alt"></div>
+    </div>
+  </div>
+  <div class="speech-wrapper">
+    <div class="bubble">
+      <div class="txt">
+        <p class="name">Cesar Nogueira</p>
+        <p class="message">Don't forget to visit my website! </p>
+        <span class="timestamp">10:20 pm</span>
+      </div>
+      <div class="bubble-arrow"></div>
+    </div>
+    <div class="bubble alt">
+      <div class="txt">
+        <p class="name alt">+353 87 1234 567<span> ~ Anna </span></p>
+        <p class="message">Which website?</p>
+        <span class="timestamp">10:22 pm</span>
+      </div>
+      <div class="bubble-arrow alt"></div>
+    </div>
+    <div class="speech-divider"></div>
+    <div class="bubble">
+      <div class="txt">
+        <p class="name">+55 19 993828181 <span> ~ Cesar</span><span></span></p>
+        <p class="message"><a href="http://cesarnogueira.me" target="_blank">www.cesarnogueira.me</a></p>
+        <span class="timestamp">10:30 pm</span>
+      </div>
+      <div class="bubble-arrow"></div>
+    </div>
+    <div class="bubble alt">
+      <div class="txt">
+        <p class="name alt">+353 87 1234 567<span> ~ Anna </span></p>
+        <p class="message"><b>Awesome!</b> I will certainly visit your website!</p>
+        <span class="timestamp">23:59 pm</span>
+      </div>
+      <div class="bubble-arrow alt"></div>
+    </div>
   </div>
 
-  <div class="container darker">
-    <img src="images/Kaytranada.jpg" class="right">
-    <p> yeah but have you heard this?</p>
-    <span class="time-right">11:01</span>
-  </div>
-
-  <div class="container">
-    <img src="images/Kaytranada.jpg" class="left">
-    <p>he's playing with Romare this week </p>
-    <span class="time-right">11:03</span>
-  </div>
-
-  <div class="container darker">
-    <img src="images/Kaytranada.jpg" class="right">
-    <p>let's go</p>
-    <span class="time-right">11:05</span>
-  </div>
 
 </body>
