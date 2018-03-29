@@ -5,6 +5,11 @@ body {
   background: #f0d60a
 }
 
+.logo {
+  font-weight: 650;
+  size: 500%; /*figure out how to change size of H1???? Issues with changing the size of a GWF*/
+  font-family: "Londrina Shadow", cursive;
+}
 .nav {
   margin:0px;
 }
