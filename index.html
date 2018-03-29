@@ -3,10 +3,10 @@
 <head>
     <title>3tones</title>
     <link href='./css/bootstrap.css' rel='stylesheet'>
+    <!--Customisable Google Font-->
     <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="mycss/main.css"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <!--jQuery framework-->
     <script  src="http://code.jquery.com/jquery-3.3.1.min.js"
         integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
         crossorigin="anonymous">
@@ -44,16 +44,15 @@
 
 <body>
 
-
-  <div class="container" onmousemove="typeWriter()">
+<!--Textbox Containers with typewriter function-->
+  <div class="container" onmousemove="typeWriter('great song','demo')">
           <script>
               var i = 0;
-              var txt = 'this is so good';
               var speed = 50;
 
-              function typeWriter() {
+              function typeWriter(txt, id) {
               if (i < txt.length) {
-              document.getElementById("demo").innerHTML += txt.charAt(i);
+              document.getElementById(id).innerHTML += txt.charAt(i);
               i++;
               setTimeout(typeWriter, speed);
               }
@@ -63,7 +62,7 @@
       <h3> WEIGHT OFF - Kaytranada, BadBadNotGood </h6>
       <h4> album EP </h4>
       <p id="demo"></p>
-      <span class="time-right">11:00</span>
+      <class="time-right">11:00
   </div>
 
   <div class="container darker">
