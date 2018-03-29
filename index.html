@@ -44,24 +44,26 @@
 
 <body>
 
-  <div class="container" onmousemove="typeWriter(demo)">
-    <img src="images/Kaytranada.jpg" class=left>
+
+  <div class="container" onmousemove="typeWriter()">
+          <script>
+              var i = 0;
+              var txt = 'this is so good';
+              var speed = 50;
+
+              function typeWriter() {
+              if (i < txt.length) {
+              document.getElementById("demo").innerHTML += txt.charAt(i);
+              i++;
+              setTimeout(typeWriter, speed);
+              }
+              }
+        </script>
+      <img src="images/Kaytranada.jpg" class=left>
       <h3> WEIGHT OFF - Kaytranada, BadBadNotGood </h6>
       <h4> album EP </h4>
       <p id="demo"></p>
-        <script>
-            var i = 0;
-            var txt = 'this is so good';
-            var speed = 50;
-            function typeWriter() {
-            if (i < txt.length) {
-            document.getElementById("demo").innerHTML += txt.charAt(i);
-            i++;
-            setTimeout(typeWriter, speed);
-    }
-  }
-  </script>
-    <span class="time-right">11:00</span>
+      <span class="time-right">11:00</span>
   </div>
 
   <div class="container darker">
@@ -82,4 +84,21 @@
     <span class="time-right">11:05</span>
   </div>
 
+  <div id="disqus_thread"></div>
+  <script>
+    var disqus_config = function () {
+       this.page.url = https://ltf93.github.io/cfgcomp/;  // Replace PAGE_URL with your page's canonical URL variable
+       this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+   };
+   */
+   (function() {  // REQUIRED CONFIGURATION VARIABLE: EDIT THE SHORTNAME BELOW
+       var d = document, s = d.createElement('script');
+
+       s.src = 'https://3tones.disqus.com/embed.js';  // IMPORTANT: Replace EXAMPLE with your forum shortname!
+
+       s.setAttribute('data-timestamp', +new Date());
+       (d.head || d.body).appendChild(s);
+   })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
 </body>
