@@ -2,114 +2,41 @@ body {
   margin: 0 auto;
   max-width: 50em;
   padding-top: 70px;
-  background: #f0d60a
-}
-
-.logo {
-  font-weight: 650;
-  size: 500%; /*figure out how to change size of H1???? Issues with changing the size of a GWF*/
-  font-family: "Londrina Shadow", cursive;
-}
-.nav {
-  margin:0px;
-}
-.navbar {
-        background: transparent;
-        background-color: transparent;
-        border-color:transparent;
-        margin-bottom: 0px;
-        font-family: 'Permanent Marker', Serif;
-        font-size:25px;
-}
-
-.navbar-brand {
-  font-size:20px;
-  font-family: 'Permanent Marker', serif;
-}
-
-.navbar-header {
-  text-shadow: #FC0 1px 0 10px;
+  /*background: #f0d60a;*/
 }
 
 .jumbotron {
-            background-size: cover;
-            background-attachment: fixed;
-            background: #f0d60a
+  background-size: cover;
+  background-attachment: fixed;
+  background: #f0d60a;
 }
 
-/*lin's copied css: https://codepad.co/snippet/ZFOvndev */
-
-.speech-divider {
-    padding: 5px 5px;
+.navbar {
+  background: transparent;
+  position: sticky;
+  width: 100%;
 }
 
-.speech-wrapper {
-  padding: 30px 40px;
-  .bubble {
-    width: 240px;
-    height: auto;
-    display: block;
-    background: #f5f5f5;
-    border-radius: 4px;
-    box-shadow: 2px 8px 5px #000;
-    position: relative;
-    margin: 0 0 25px;
-    &.alt {
-      margin: 0 0 0 60px;
-    }
-    .txt {
-      padding: 8px 55px 8px 14px;
-      .name {
-        font-weight: 600;
-        font-size: 12px;
-        margin: 0 0 4px;
-        color: #3498db;
-        span {
-          font-weight: normal;
-          color: #b3b3b3;
-        }
-        &.alt {
-          color: #2ecc71;
-        }
-      }
-      .message {
-        font-size: 12px;
-        margin: 0;
-        color: #2b2b2b;
-      }
-      .timestamp {
-        font-size: 11px;
-        position: absolute;
-        bottom: 8px;
-        right: 10px;
-        text-transform: uppercase;
-        color: #999;
-      }
-    }
-    .bubble-arrow {
-      position: absolute;
-      width: 0;
-      bottom: 42px;
-      left: -16px;
-      height: 0;
-      &.alt {
-        right: -2px;
-        bottom: 40px;
-        left: auto;
-      }
-    }
-    .bubble-arrow:after {
-      content: '';
-      position: absolute;
-      border: 0 solid transparent;
-      border-top: 9px solid #f5f5f5;
-      border-radius: 0 20px 0;
-      width: 15px;
-      height: 30px;
-      transform: rotate(145deg);
-    }
-    .bubble-arrow.alt:after {
-      transform: rotate(45deg) scaleY(-1);
-    }
-  }
+.logo {
+  font-weight: 100;
+  size: 200px;
+  font-family: "Londrina Shadow", cursive;
+  display: inline;
 }
+
+.navbar ul {
+  float: right;
+  text-align: right;
+  list-style: none;
+  padding: 10px;
+  display: inline;
+}
+
+.navbar li {
+  display: inline;
+  font-family: 'Permanent Marker', Serif;
+  padding-left: 16px;
+  font-size:15px;
+}
+
+/*lin copied css code*/
