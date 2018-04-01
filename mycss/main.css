@@ -1,10 +1,8 @@
-/*add jumbotron in html back later to centre speech bubbles
-.jumbotron {
-  background-size: cover;
-  background-attachment: fixed;
+.container {
   background: #f0d60a;
+  align-items: center;
+  width: 400px;
 }
-*/
 
 .navbar {
   background: #f0d60a; /*transparent*/
@@ -43,17 +41,13 @@ body {
   margin: 0px auto;
   font-family: Arial, Helvetica, sans-serif;
   background: #f0d60a;
-  max-width: 50em;
   padding-top: 15px;
+  width: 700px;
   /*url('http://forums.crackberry.com/attachments/blackberry-10-wallpapers-f308/137432d1361639896t-z10-wallpaper-set-z10-music.jpg');*/
 }
 
 .speech-wrapper {
   padding: 70px 40px 20px 40px;
-}
-
-.speech-divider {
-    padding: 5px 5px;
 }
 
 .bubble {
@@ -64,11 +58,11 @@ body {
   border-radius: 4px;
   box-shadow: 2px 8px 5px #000;
   position: relative;
-  margin: 0 0 25px;
+  margin: 0 0 30px;
   }
 
 .alt {
-  margin: 0 0 25px 60px;
+  margin: 0 0 30px 60px;
   }
 
 .txt {
