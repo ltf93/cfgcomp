@@ -60,7 +60,7 @@ body {
 
 .bubble {
   width: 300px;
-  height: auto;
+  height: 250px;
   display: block;
   background: #f5f5f5;
   border-radius: 4px;
