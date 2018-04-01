@@ -40,7 +40,7 @@
   display: inline;
   font-family: 'Permanent Marker', Serif;
   padding-left: 16px;
-  font-size: 20px;
+  font-size:15px;
 }
 
 /*lin copied css : https://codepad.co/snippet/ZFOvndev*/
@@ -52,15 +52,9 @@ body {
   width: 700px;
   }
 
-.about-container {
-    background: white;
-    align-items: center;
-    width: 400px;
-  }
-
 .bubble {
   width: 300px;
-  height: 250px;
+  height: auto;
   display: block;
   background: #f5f5f5;
   border-radius: 4px;
