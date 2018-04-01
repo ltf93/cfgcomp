@@ -1,7 +1,10 @@
 .container {
   background: #f0d60a;
   align-items: center;
-  width: 400px;
+}
+
+.speech-wrapper {
+  padding: 70px 40px 20px 40px;
 }
 
 .navbar {
@@ -35,7 +38,6 @@
   font-size:15px;
 }
 
-
 /*lin copied css : https://codepad.co/snippet/ZFOvndev*/
 body {
   margin: 0px auto;
@@ -43,12 +45,7 @@ body {
   background: #f0d60a;
   padding-top: 15px;
   width: 700px;
-  /*url('http://forums.crackberry.com/attachments/blackberry-10-wallpapers-f308/137432d1361639896t-z10-wallpaper-set-z10-music.jpg');*/
-}
-
-.speech-wrapper {
-  padding: 70px 40px 20px 40px;
-}
+  }
 
 .bubble {
   width: 300px;
