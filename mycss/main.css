@@ -129,31 +129,8 @@ body {
   transform: rotate(45deg) scaleY(-1);
   }
 
-  .fa {
-  padding: 20px;
-  font-size: 30px;
-  width: 30px;
-  text-align: center;
-  text-decoration: none;
-  margin: 5px 2px;
-  border-radius: 50%;
-}
-
-.fa:hover {
-    opacity: 0.7;
-}
-
-.fa-facebook {
-  background: white;
-  color: black;
-}
-
-.fa-twitter {
-  background: white;
-  color: black;
-}
-
-.fa-google {
-  background: white;
-  color: black;
+.buttons {
+  position: absolute;
+  right: 0px;
+  display: grid;
 }
