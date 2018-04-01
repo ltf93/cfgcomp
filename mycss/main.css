@@ -130,7 +130,7 @@ body {
   }
 
 .buttons {
-  position: absolute;
   right: 0px;
   display: grid;
+  align-content: center;
 }
