@@ -35,9 +35,15 @@
       <img src="images/Kaytranada.jpg" alt="Kaytranda" height="180px" width="180px">
       <span class="timestamp">10:20 pm</span>
     </div> <!--closes txt div -->
-    </div>
+  </div> <!--closes front div -->
     <div class="back">
-    </div>
+      <div class="txt">
+        <p class="name alt">+353 87 1234 567<span> ~ Lissie </span></p>
+        <p class="message">Nice...this will work great for my new project.</p>
+        <img src="images/pink_floyd.jpg" alt="Pink Floyd" height="180px" width="180px">
+        <span class="timestamp">10:22 pm</span>
+      </div> <!--closes txt div-->
+    </div> <!--closes back div -->
     <div class="bubble-arrow"></div>
   </div> <!--closes "bubble" div-->
 
@@ -142,8 +148,9 @@
   </div> <!--closes ".bubble alt" div-->
 
 <script src="js/jquery-2.1.4.min.js"></script>
-<script src="js/jquery.flip.js">
-  $("#bubble").flip();
+<script src="js/jquery.flip.js"></script>
+<script>
+$(".bubble").flip();
 </script>
 
 </body>
