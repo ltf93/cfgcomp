@@ -16,6 +16,11 @@
   z-index: 9;
 }
 
+.artistsong {
+  font-family: "Londrina Shadow", cursive;
+  font-weight: 1000;
+}
+
 .logo {
   font-weight: 1000;
   font-family: "Londrina Shadow", cursive;
