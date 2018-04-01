@@ -52,6 +52,12 @@ body {
   width: 700px;
   }
 
+.about-container {
+    background: white;
+    align-items: center;
+    width: 400px;
+  }
+
 .bubble {
   width: 300px;
   height: auto;
@@ -101,7 +107,7 @@ body {
 .bubble-arrow {
   position: absolute;
   width: 0;
-  bottom: 42px;
+  bottom: 32px;
   left: -16px;
   height: 0;
   }
