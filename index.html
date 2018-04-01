@@ -7,6 +7,8 @@
     <link href="https://fonts.googleapis.com/css?family=Londrina+Shadow" rel="stylesheet" type="text/css">
     <link rel="stylesheet" type="text/css" href="mycss/main.css"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js">
+    <script src="https://cdn.rawgit.com/nnattawat/flip/master/dist/jquery.flip.min.js">
 </head>
 <body>
 <div class="navbar">
@@ -26,22 +28,26 @@
   <div class="speech-wrapper">
 
   <div class="bubble">
+    <div class="front">
     <div class="txt">
       <p class="name">Nibras Ibnomer</p>
       <p class="message">Hey, check out this pure CSS speech bubble...</p>
       <img src="images/Kaytranada.jpg" alt="Kaytranda" height="180px" width="180px">
       <span class="timestamp">10:20 pm</span>
-    </div> <!--closes "".txt" div-->
+    </div> <!--closes txt div -->
+    </div>
+    <div class="back">
+    </div>
     <div class="bubble-arrow"></div>
   </div> <!--closes "bubble" div-->
 
   <div class="bubble alt">
     <div class="txt">
       <p class="name alt">+353 87 1234 567<span> ~ Lissie </span></p>
-      <p class="message">Nice... this will work great for my new project.</p>
+      <p class="message">Nice...this will work great for my new project.</p>
       <img src="images/pink_floyd.jpg" alt="Pink Floyd" height="180px" width="180px">
       <span class="timestamp">10:22 pm</span>
-    </div> <!--closes "".txt" div-->
+    </div> <!--closes txt div-->
     <div class="bubble-arrow alt"></div>
   </div> <!--closes "bubble alt" div-->
 
@@ -50,7 +56,7 @@
       <p class="name">Nibras Ibnomer</p>
       <p class="message">Don't forget to visit my website! </p>
       <span class="timestamp">10:20 pm</span>
-    </div> <!--closes "".txt" div-->
+    </div> <!--closes txt div-->
     <div class="bubble-arrow"></div>
   </div> <!--closes ".bubble" div-->
 
@@ -134,5 +140,7 @@
     </div> <!--closes "".txt" div-->
     <div class="bubble-arrow alt"></div>
   </div> <!--closes ".bubble alt" div-->
+
+  $("#bubble").flip();
 </body>
 </html>
