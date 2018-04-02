@@ -110,3 +110,23 @@ body {
   padding: 5px 55px 8px 5px;
   background: #white;
   }
+
+/*OPTIONAL: styling on our names??? this font mirrors our logo font...
+.name {
+    font-family: "Londrina Shadow", cursive;
+    font-weight: 100;
+    font-size: 20px;
+
+or mirrors the whatsapp chatbox styling of names (index page)??
+.name {
+  font-weight: 600;
+  font-size: 12px;
+  margin: 0 0 4px;
+  color: #3498db;
+}
+
+.alt {
+  color: #2ecc71;
+  }
+
+*/
