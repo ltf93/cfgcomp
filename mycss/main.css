@@ -26,6 +26,8 @@
   font-family: "Londrina Shadow", cursive;
   font-size: 50px;
   display: inline;
+  text-decoration: none;
+  color: black;
 }
 
 .navbar ul {
