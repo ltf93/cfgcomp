@@ -74,9 +74,9 @@ body {
     }
 
 .alt {
-      right: -2px;
-      left: auto;
-      }
+  right: -2px;
+  left: auto;
+  }
 
 .bubble-arrow:after {
       content: '';
@@ -111,11 +111,14 @@ body {
   background: #white;
   }
 
+  .name {
+      font-family: "Londrina Shadow", cursive;
+      font-weight: 1000;
+      font-size: 23px;
+  }
+
 /*OPTIONAL: styling on our names??? this font mirrors our logo font...
-.name {
-    font-family: "Londrina Shadow", cursive;
-    font-weight: 100;
-    font-size: 20px;
+
 
 or mirrors the whatsapp chatbox styling of names (index page)??
 .name {
