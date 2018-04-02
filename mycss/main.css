@@ -19,6 +19,7 @@
 .artistsong {
   font-family: "Londrina Shadow", cursive;
   font-weight: 1000;
+  font-size: 20px;
 }
 
 .logo {
@@ -75,6 +76,9 @@ body {
   height: 230px;
   }
 
+.row{
+  width:320px;
+}
 .name {
   font-weight: 600;
   font-size: 12px;
@@ -87,14 +91,14 @@ body {
   }
 
 .message {
-  font-size: 15px;
+  font-size: 20px;
   margin: 0;
   color: #2b2b2b;
   font-family: "Just Another Hand", Helvetica, sans-serif;
   }
 
 .timestamp {
-  font-size: 11px;
+  font-size: 10px;
   position: absolute;
   bottom: 8px;
   right: 10px;
