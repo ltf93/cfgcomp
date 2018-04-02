@@ -4,7 +4,8 @@
 }
 
 .speech-wrapper {
-  padding: 70px 40px 20px 40px;
+  padding: 70px 150px 20px 150px;
+  align-items: center;
 }
 
 .navbar {
@@ -20,6 +21,7 @@
   font-family: "Londrina Shadow", cursive;
   font-weight: 1000;
   font-size: 20px;
+  color: black;
 }
 
 .logo {
