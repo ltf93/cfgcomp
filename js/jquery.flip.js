@@ -31,7 +31,7 @@
     this.setting = {
       axis: "y",
       reverse: false,
-      trigger: "click",
+      trigger: "hover",
       speed: 500,
       forceHeight: false,
       forceWidth: false,
@@ -234,7 +234,7 @@
       self.attachEvents();
     },
 
-    clickHandler: function(event) {
+    hoverHandler: function(event) {
       if (!event) { event = window.event; }
       if (this.element.find($(event.target).closest('button, a, input[type="submit"]')).length) {
         return;
