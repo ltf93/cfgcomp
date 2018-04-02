@@ -101,6 +101,12 @@ body {
       }
 
 .txt {
+        padding: 70px 55px 2px 30px;
+        background: #f0d60a;
+        text-align: center;
+        }
+
+.bubble-background {
   padding: 70px 55px 8px 0px;
-  background: #f0d60a;
+  background: #white;
   }
