@@ -31,7 +31,7 @@
     this.setting = {
       axis: "y",
       reverse: false,
-      trigger: "click",
+      trigger: "hover",
       speed: 500,
       forceHeight: false,
       forceWidth: false,
@@ -234,7 +234,7 @@
       self.attachEvents();
     },
 
-    clickHandler: function(event) {
+    hoverHandler: function(event) {
       if (!event) { event = window.event; }
       if (this.element.find($(event.target).closest('button, a, input[type="submit"]')).length) {
         return;
@@ -263,8 +263,8 @@
 
     attachEvents: function() {
       var self = this;
-      if (self.setting.trigger === "click") {
-        self.element.on($.fn.tap ? "tap.flip" : "click.flip", $.proxy(self.clickHandler, self));
+      if (self.setting.trigger === "hover") {
+        self.element.on($.fn.tap ? "tap.flip" : "hover.flip", $.proxy(self.hoverHandler, self));
       } else if (self.setting.trigger === "hover") {
         self.element.on('mouseenter.flip', $.proxy(self.hoverHandler, self));
         self.element.on('mouseleave.flip', $.proxy(self.unflip, self));
