@@ -1,6 +1,6 @@
 .container {
   background: #f0d60a;
-  align-items: center;
+  width: 100%;
 }
 
 .speech-wrapper {
@@ -45,7 +45,6 @@
   font-size:15px;
 }
 
-/*lin copied css : https://codepad.co/snippet/ZFOvndev*/
 body {
   margin: 0px auto;
   font-family: Arial, Helvetica, sans-serif;
@@ -55,8 +54,8 @@ body {
   }
 
 .bubble {
-  width: 300px;
-  height: 280px;
+  width: 320px;
+  height: 230px;
   display: block;
   background: #f5f5f5;
   border-radius: 4px;
@@ -70,10 +69,10 @@ body {
   }
 
 .txt {
-  padding: 8px 55px 8px 14px;
+  padding: 8px 60px 5px 8px;
   background: #f5f5f5;
-  width: 300px;
-  height: 280px;
+  width: 320px;
+  height: 230px;
   }
 
 .name {
@@ -88,9 +87,10 @@ body {
   }
 
 .message {
-  font-size: 12px;
+  font-size: 15px;
   margin: 0;
   color: #2b2b2b;
+  font-family: "Just Another Hand", Helvetica, sans-serif;
   }
 
 .timestamp {
@@ -100,6 +100,7 @@ body {
   right: 10px;
   text-transform: uppercase;
   color: #999;
+  font-family: Calibri, sans-serif;
   }
 
 .bubble-arrow {
