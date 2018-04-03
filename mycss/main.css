@@ -129,8 +129,16 @@ body {
   transform: rotate(45deg) scaleY(-1);
   }
 
-.buttons {
+.share {
   right: 0px;
   display: grid;
   align-content: center;
+}
+
+
+.play {
+  position: absolute;
+  left: 0px;
+  bottom: 40px;
+
 }
