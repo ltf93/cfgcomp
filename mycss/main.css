@@ -17,12 +17,19 @@
   z-index: 9;
 }
 
+.album {
+  font-family: 'Londrina Shadow';
+  font-size: 15px;
+  color: black;
+}
+
 .artistsong {
-  font-family: 'Londrina Shadow', cursive;
+  font-family: 'Londrina Shadow';cursive;
   font-weight: 1000;
   font-size: 20px;
   color: black;
 }
+
 
 .logo {
   font-weight: 1000;
@@ -94,7 +101,7 @@ body {
   }
 
 .message {
-  font-size: 10px;
+  font-size: 15px;
   margin: 0;
   color: #2b2b2b;
   font-family: 'IBM Plex Mono', monospace;
