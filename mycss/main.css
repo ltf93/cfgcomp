@@ -18,7 +18,7 @@
 }
 
 .artistsong {
-  font-family: "Londrina Shadow", cursive;
+  font-family: 'Londrina Shadow', cursive;
   font-weight: 1000;
   font-size: 20px;
   color: black;
@@ -76,6 +76,7 @@ body {
   background: #f5f5f5;
   width: 320px;
   height: 230px;
+  font-family: 'IBM Plex Mono', monospace;
   }
 
 .row{
@@ -93,10 +94,10 @@ body {
   }
 
 .message {
-  font-size: 20px;
+  font-size: 10px;
   margin: 0;
   color: #2b2b2b;
-  font-family: "Just Another Hand", Helvetica, sans-serif;
+  font-family: 'IBM Plex Mono', monospace;
   }
 
 .timestamp {
@@ -137,8 +138,38 @@ body {
   transform: rotate(45deg) scaleY(-1);
   }
 
-.buttons {
-  position: absolute;
-  right: 0px;
+/*Lissie created div container to align icons*/
+.share {
+  float: left;
+  margin-top: 0px;
+  margin-left: 10px;
+  position: sticky;
+  display: inline;
+}
+
+
+
+.play {
+  float: right;
+  margin-top: -15px;
+  margin-right: -50px;
+  display: grid;
+  display: grid;
+}
+/*Lissie created div container to align icons*/
+.share {
+  float: left;
+  margin-top: 0px;
+  margin-left: 10px;
+  position: sticky;
+  display: inline;
+}
+
+
+
+.play {
+  float: right;
+  margin-top: -15px;
+  margin-right: -50px;
   display: grid;
 }
