@@ -263,8 +263,13 @@
 
     attachEvents: function() {
       var self = this;
+<<<<<<< HEAD
       if (self.setting.trigger === "click") {
            self.element.on($.fn.tap ? "tap.flip" : "click.flip", $.proxy(self.clickHandler, self));
+=======
+      if (self.setting.trigger === "hover") {
+        self.element.on($.fn.tap ? "tap.flip" : "hover.flip", $.proxy(self.hoverHandler, self));
+>>>>>>> parent of 7d2ca73... Revert "add flip when mouse hovers"
       } else if (self.setting.trigger === "hover") {
         self.element.on('mouseenter.flip', $.proxy(self.hoverHandler, self));
         self.element.on('mouseleave.flip', $.proxy(self.unflip, self));
