@@ -111,10 +111,10 @@ body {
   background: #white;
   }
 
-  .name {
-      font-family: "Londrina Shadow", cursive;
-      font-weight: 1000;
-      font-size: 23px;
+.name {
+  font-family: "Londrina Shadow", cursive;
+  font-weight: 1000;
+  font-size: 23px;
   }
 
 /*OPTIONAL: styling on our names??? this font mirrors our logo font...
