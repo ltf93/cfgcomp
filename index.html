@@ -95,7 +95,7 @@
               <div class="col-xs-5">
                 <p class="artistsong">Enjoy your life ~ Oby Onyioha</p>
                 <p class="album">I Want To Feel Your love</p>
-                <p class="message"> the Queen of Atrado rhythms</p>
+                <p class="message"><strong> the </strong> Queen of Atrado rhythms</p>
                </div>
            </div>
            <div class="row"> <!--row 3 of 3 -->
@@ -463,5 +463,18 @@
 <script>
  $(".bubble").flip();
 </script>
+<script>
+    var i = 0;
+    var speed = 50;
+
+    function typeWriter(txt, id) {
+    if (i < txt.length) {
+    document.getElementById(id).innerHTML += txt.charAt(i);
+    i++;
+    setTimeout(typeWriter, speed);
+    }
+    }
+</script>
+
 </body>
 </html>
