@@ -3,12 +3,11 @@
 }
 .navbar {
   background: #f0d60a; /*transparent*/
-  width: 100%;
-	padding: 0;
-  position: sticky;
+  width: 700px;
+  position: fixed;
   top: 0;
   overflow: hidden;
-  z-index: 100;
+  z-index: 9;
 }
 
 .logo {
@@ -22,7 +21,6 @@
 
 .navbar ul {
   text-align: right;
-  with: 800px;
   list-style: none;
   padding: 60px;
   display: inline;
@@ -31,8 +29,8 @@
 .navbar li {
   display: inline;
   font-family: 'Permanent Marker', cursive;
+  padding-left: 16px;
   font-size:20px;
-  padding: 10px 30px 5px 5px;
 }
 
 body {

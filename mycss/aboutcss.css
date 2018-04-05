@@ -41,10 +41,9 @@
   }
 
 .navbar ul {
-  float: right;
   text-align: right;
   list-style: none;
-  padding: 10px;
+  padding: 60px;
   display: inline;
 }
 
@@ -52,7 +51,7 @@
   display: inline;
   font-family: 'Permanent Marker', Serif;
   padding-left: 16px;
-  font-size:15px;
+  font-size:20px;
 }
 
 body {
