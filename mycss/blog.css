@@ -1,0 +1,64 @@
+.container {
+  background: #f0d60a;
+}
+.navbar {
+  background: #f0d60a; /*transparent*/
+  width: 100%;
+	padding: 0;
+  position: sticky;
+  top: 0;
+  overflow: hidden;
+  z-index: 100;
+}
+
+.logo {
+  font-weight: 1000;
+  font-family: "Londrina Shadow", cursive;
+  font-size: 50px;
+  display: inline;
+  text-decoration: none;
+  color: black;
+}
+
+.navbar ul {
+  text-align: right;
+  with: 800px;
+  list-style: none;
+  padding: 60px;
+  display: inline;
+}
+
+.navbar li {
+  display: inline;
+  font-family: 'Permanent Marker', cursive;
+  font-size:20px;
+  padding: 10px 30px 5px 5px;
+}
+
+body {
+  margin: 0px auto;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f0d60a;
+  padding-top: 54px;
+  width: 700px;
+  }
+
+  .txt {
+    padding: 8px 60px 5px 8px;
+    background: #f5f5f5;
+    width: 380px;
+    height: 280px;
+    font-family: 'IBM Plex Mono', monospace;
+    }
+
+    /*!
+ * Start Bootstrap - Blog Home (https://startbootstrap.com/template-overviews/blog-home)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-blog-home/blob/master/LICENSE)
+ */
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+}
